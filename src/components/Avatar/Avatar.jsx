@@ -15,6 +15,7 @@ export const ChoiceAvatar = () => {
       dispatch(addAvatar(event.target.result));
     };
     reader.readAsDataURL(file);
+    console.log(file);
   }
 
   return (
